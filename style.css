@@ -1,0 +1,96 @@
+@import url('https://fonts.cdnfonts.com/css/dancing-script');
+                
+
+/* Reset beberapa gaya default browser */
+body, h1, h2, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Gaya dasar */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('img/background.jpg'); /* Ganti dengan URL gambar latar belakang yang sesuai */
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: wheat;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: wheat; /* Warna sesuai dengan preferensi Anda */
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: wheat;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-heading h2 {
+  font-size: 1.8rem;
+  color: wheat; /* Warna sesuai dengan preferensi Anda */
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: wheat; /* Warna sesuai dengan preferensi Anda */
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  margin-top: 10px;
+}
+
+.nama{
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', sans-serif;
+  position: relative;
+  top: 20px;
+}
+
+.judul{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+p{
+  text-align: center;
+}
+
+/* Tambahkan gaya sesuai dengan preferensi Anda */
